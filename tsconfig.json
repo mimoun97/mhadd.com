@@ -1,4 +1,13 @@
 {
   // https://nuxt.com/docs/guide/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".", // Esto hace que los alias se resuelvan desde la raíz del proyecto
+    "paths": {
+      "@/*": ["./*"], // Alias para la raíz del proyecto
+      "@components/*": ["./components/*"], // Alias para 'components'
+      "@assets/*": ["./assets/*"], // Alias para 'assets'
+      "@utils/*": ["./utils/*"] // Alias para 'utils'
+    }
+  }
 }
