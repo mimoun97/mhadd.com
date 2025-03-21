@@ -28,4 +28,9 @@ useSeoMeta({
   ogImage: 'https://mhadd.com/images/ogImage.jpg',
   twitterCard: 'summary_large_image',
 })
+useHead({
+  htmlAttrs: {
+    lang: 'es',
+  }
+})
 </script>

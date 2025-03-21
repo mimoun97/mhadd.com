@@ -1,6 +1,6 @@
 <template>
     <!-- Youtube -->
-    <SocialCard to="https://www.linkedin.com/in/mimoun-haddou/" class="bg-[#0a66c2]">
+    <SocialCard aria-label="Ver perfil de Linkedin" to="https://www.linkedin.com/in/mimoun-haddou/" class="bg-[#0a66c2]">
       <svg class="ov-icon" aria-hidden="true" width="46.08" height="46.08" viewBox="-1.6 -1.6 19.2 19.2"
         fill="currentColor" style="font-size: 2.88em;">
         <path
@@ -9,7 +9,7 @@
       </svg>
     </SocialCard>
 
-    <SocialCard to="https://github.com/mimoun97" class="bg-[#8250DF]">
+    <SocialCard aria-label="Ver perfil de Github" to="https://github.com/mimoun97" class="bg-[#8250DF]">
       <svg aria-hidden="true" width="46.08" height="46.08" viewBox="-1.6 -1.6 19.2 19.2" fill="currentColor"
         style="font-size: 2.88em;">
         <path
@@ -18,7 +18,7 @@
       </svg>
     </SocialCard>
 
-    <SocialCard to="mailto:mimounhm.97@gmail.com" class="bg-[#c71610]">
+    <SocialCard aria-label="Enviar un correo electrónico." to="mailto:mimounhm.97@gmail.com" class="bg-[#c71610]">
       <svg class="ov-icon" aria-hidden="true" width="46.08" height="46.08" viewBox="-3 -3 30 30" fill="currentColor"
         style="font-size: 2.88em;">
         <path
@@ -27,7 +27,7 @@
       </svg>
     </SocialCard>
 
-    <SocialCard to="https://t.me/mhadd97" class="bg-[#24A1DE]">
+    <SocialCard aria-label="Ver perfil de Telegram" to="https://t.me/mhadd97" class="bg-[#24A1DE]">
       <svg class="ov-icon" aria-hidden="true" width="46.08" height="46.08" viewBox="-75.52 -43.52 599.04 599.04"
         fill="currentColor" style="font-size: 2.88em;">
         <path
